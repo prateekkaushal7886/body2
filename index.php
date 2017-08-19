@@ -9,7 +9,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <style type="text/css">
-
+body
+{
+	background-color: rgba(0,0,0,.67);
+}
 .col-sm-10
 {
 	box-shadow: 3px 3px 6px 6px rgba(0,0,0,.4);
@@ -21,7 +24,7 @@
 
 .col-sm-10:hover
 {
-	box-shadow: 5px 5px 10px 10px rgba(0,0,255,.3);
+	box-shadow: 5px 5px 10px 10px rgba(0,0,0,1);
 	background-image: url('6.jpg');
 }
 p
@@ -34,6 +37,15 @@ p
 {
 	box-shadow: 3px 3px 6px 6px rgba(0,0,0,.4);
 }
+.col-sm-5
+{
+	font-size: 200%;
+	font-weight: bolder;
+	text-decoration: underline white;
+	color: white;
+
+
+}
 
 
 
@@ -41,8 +53,12 @@ p
 h2
 {
 	font-weight: bold;
+	text-decoration : underline;
 }
-
+.btn .btn-primary .btn-lg
+{
+	font-size: 250%;
+}
 
 
 
@@ -95,7 +111,10 @@ h2
   .inner{margin:0px !important;}
 
 
-
+.asq
+{
+	background-color: white;
+}
 
 
 
@@ -124,6 +143,12 @@ h2
 
  <body>
   	<br /><br />
+  	
+    <div class="col-sm-5"></div>
+    <div class="col-sm-5">About Us</div>
+    <div class="col-sm-2"></div>
+
+  	 <br /><br /><br /><br />
 <div class="col-sm-1"></div>
 <div class="col-sm-10">
 	
@@ -143,7 +168,25 @@ h2
 
 
 
+<div class="col-sm-4"><br><br></div>
+<div class="col-sm-4"><br><br></div>
+<div class="col-sm-4"><br /><br></div>
+
 </div> 
+<br /><br /><br /><br />
+
+<div class="col-sm-4"><br><br></div>
+<div class="col-sm-4"><br><br></div>
+<div class="col-sm-4"><br /><br></div>
+
+  <div class="col-sm-5"></div>
+    <div class="col-sm-5">Latest Programs</div>
+    <div class="col-sm-2"></div>
+
+
+
+<br /><br /><br /><br />
+
 
 <div class="col-sm-1"></div>
 
@@ -153,10 +196,7 @@ h2
 <div class="col-sm-4"><br /><br></div>
 
 
-
-
-
-
+  
 <div class="row">
 <div class="col-sm-3">
       <div class="flip">
@@ -165,7 +205,7 @@ h2
             <div class="inner"> 
             <div class="thumbnail">
 
-              <img src="10.1.jpg" width="333">
+              <img src="10.1.jpg" width="333" >
               <div class="caption">
           <h2>Class Gift</h2>
         </div>
@@ -175,12 +215,14 @@ h2
           <div class="face back"> 
             <div class="inner text-center"> 
             <h3>Senior Class Gift</h3>
-              <em>The Senior Class Gift, an initiative under the My Imprint Programme saw a large number of graduating students signing up for the programme. The programme gives an opportunity to the graduating batch to give something back to the Institute, the moment they are about to leave the Institute.</em>
+             <div  class="asq"> <em>The Senior Class Gift, an initiative under the My Imprint Programme saw a large number of graduating students signing up for the programme. The programme gives an opportunity to the graduating batch to give something back to the Institute, the moment they are about to leave the Institute.</em></div>
               
             </div>
           </div>
         </div>	 
       </div>
+      <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
     </div>
   <div class="col-sm-3">
       <div class="flip">
@@ -188,7 +230,7 @@ h2
           <div class="face front"> 
             <div class="inner">  
             <div class="thumbnail"> 
-              <img src="10.2.jpg" width="315">
+              <img src="10.2.jpg" >
                <div class="caption">
           <h2>Mentorship</h2>
         </div>
@@ -198,7 +240,7 @@ h2
           <div class="face back"> 
             <div class="inner text-center"> 
               <h3>Mentorship</h3>
-             <em> Students’ Alumni Cell brings to you Student Alumni Mentorship Programme. A plat form to share the valuable experience of our esteemed alumni community with the current students. For more Information, Kindly check out Mentorship Website.</em>
+         <div  class="asq"> <em> Students’ Alumni Cell brings to you Student Alumni Mentorship Programme. A plat form to share the valuable experience of our esteemed alumni community with the current students. For more Information, Kindly check out Mentorship Website.</em></div>
               
             </div>
           </div>
@@ -221,7 +263,7 @@ h2
           <div class="face back"> 
             <div class="inner text-center"> 
              <h3>Guest Lecture</h3>
-              <em>Continuing with its yearlong series of Guest Lectures by eminent alumni, the Students’ Alumni Cell recently organised "Tips from Top", an open house with prominent alumni in the fields of Entrepreneurship, Civil Services and Research.</em>
+             <div  class="asq"> <em>Continuing with its yearlong series of Guest Lectures by eminent alumni, the Students’ Alumni Cell recently organised "Tips from Top", an open house with prominent alumni in the fields of Entrepreneurship, Civil Services and Research.</em></div>
             </div>
           </div>
         </div>	 
@@ -243,13 +285,151 @@ h2
           <div class="face back"> 
             <div class="inner text-center"> 
               <h3>Yearbook</h3>
-              <em>The Yearbook is a collection of photographs and memories presented every year at the time of the convocation to the graduating batch by the Students’ Alumni Cell. It is the perfect souvenir for everyone about to leave their home away from home, KGP.</em>
+            <div  class="asq">  <em>The Yearbook is a collection of photographs and memories presented every year at the time of the convocation to the graduating batch by the Students’ Alumni Cell. It is the perfect souvenir for everyone about to leave their home away from home, KGP.</em></div>
             </div>
           </div>
         </div>	 
       </div>
     </div>
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="col-sm-5"></div>
+    <div class="col-sm-5">What We Do</div>
+    <div class="col-sm-2"></div>
+<br /><br /><br /><br />
+
+<div class="row">
+<div class="col-sm-2"></div>
+<div class="col-sm-3">
+      <div class="flip">
+        <div class="card"> 
+          <div class="face front"> 
+            <div class="inner"> 
+            <div class="thumbnail">
+
+              <img src="11.1.jpg" width="333">
+              <div class="caption">
+          <h2>For Alumni</h2>
+        </div>
+        </div>
+            </div>
+          </div> 
+          <div class="face back"> 
+            <div class="inner text-center"> 
+            <h3>Senior Class Gift</h3>
+             <div  class="asq"> <em>The Senior Class Gift, an initiative under the My Imprint Programme saw a large number of graduating students signing up for the programme. The programme gives an opportunity to the graduating batch to give something back to the Institute, the moment they are about to leave the Institute.</em>
+              </div>
+            </div>
+          </div>
+        </div>	 
+      </div>
+    </div>
+  <div class="col-sm-3">
+      <div class="flip">
+        <div class="card"> 
+          <div class="face front"> 
+            <div class="inner">  
+            <div class="thumbnail"> 
+              <img src="11.2.jpg" width="315">
+               <div class="caption">
+          <h2>For Institute</h2>
+        </div>
+        </div>
+            </div>
+          </div> 
+          <div class="face back"> 
+            <div class="inner text-center"> 
+              <h3>Mentorship</h3>
+          <div  class="asq">   <em> Students’ Alumni Cell brings to you Student Alumni Mentorship Programme. A plat form to share the valuable experience of our esteemed alumni community with the current students. For more Information, Kindly check out Mentorship Website.</em>
+              </div>
+            </div>
+          </div>
+        </div>	 
+      </div>
+    </div>
+  <div class="col-sm-3">
+      <div class="flip">
+        <div class="card"> 
+          <div class="face front"> 
+            <div class="inner">  
+            <div class="thumbnail"> 
+              <img src="11.3.jpg" width="315">
+               <div class="caption">
+          <h2>For Institute</h2>
+        </div>
+        </div>
+            </div>
+          </div> 
+          <div class="face back"> 
+            <div class="inner text-center"> 
+             <h3>Guest Lecture</h3>
+           <div  class="asq">   <em>Continuing with its yearlong series of Guest Lectures by eminent alumni, the Students’ Alumni Cell recently organised "Tips from Top", an open house with prominent alumni in the fields of Entrepreneurship, Civil Services and Research.</em></div>
+            </div>
+          </div>
+        </div>	 
+      </div>
+    </div>
+ 
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
